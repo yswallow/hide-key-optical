@@ -42,10 +42,10 @@ void matrix_init_custom(void) {
 #else
                 setPinInput(pin);
 #endif
-    wait_ms(2000); // 追加！
             }
         }
     }
+    //wait_ms(2000); // 追加！
 }
 
 static bool select_col(uint8_t col) {
